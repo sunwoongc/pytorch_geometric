@@ -117,7 +117,7 @@ For this, we make use of the excellent `sentence-transformers <https://www.sbert
     pip install sentence-transformers
 
 .. code-block:: python
-
+    from sentence_transformers import SentenceTransformer
     class SequenceEncoder(object):
         def __init__(self, model_name='all-MiniLM-L6-v2', device=None):
             self.device = device
